@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Order Form</title>
+</head>
+<body>
+    <form action="mailto:mailzasveisvasta23@gmail.com">
+        <h1>Software Order Form</h1>
+            <table>
+                <tr>
+                    <td>
+                        <fieldset>
+                            <legend>Licence details</legend>
+                                <ul>
+                                    <li>
+                                        Email address
+                                        <input type="text" required>
+                                    </li>
+                                    <li>
+                                        Website
+                                        <input type="text" placeholder="http://www.example.com/" required>
+                                    </li>
+                                
+                                    <li>
+                                        Number of licences
+                                        <input type="text" placeholder="How many to buy(1-10)" required>
+                                    </li>
+                                </ul>
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <fieldset>
+                            <legend>Billing details</legend>
+                                <ul>
+                                    <li>
+                                        Name
+                                        <input type="text"  placeholder="First Last" required>
+                                    </li>
+                                    <li>
+                                        Address
+                                        <textarea placeholder="House number, street, city, state" required></textarea>
+                                    </li>
+                                    <li>
+                                        Postal Code
+                                        <input type="text" placeholder="Post code or zip code" required>
+                                    </li>
+                                    <li>
+                                        Country Code
+                                        <select>
+                                            <option>Australia</option>
+                                            <option>Nicaragua</option>
+                                            <option>Seychelles</option>
+                                            <option>Island</option>
+                                            <option>Guatemala</option>
+                                        </select>
+                                    </li>
+                                    <li>
+                                        Phone<i>(optional)</i>
+                                        <input type="text" placeholder="Include coutry prefix, e.g.">
+                                    </li>
+                                </ul>
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <fieldset>
+                            <legend>Payment details</legend>
+                                <ul>
+                                    <li>
+                                        Card number
+                                        <input type="text" placeholder="As shown on the front of your ID" required>
+                                    </li>
+                                    <li>
+                                        CVV code
+                                        <textarea placeholder="3-digit number on back of your ID" required></textarea>
+                                    </li>
+                                    <li>
+                                        Expiry date
+                                        <input type="text" placeholder="YYYY-MM" required>
+                                    </li>
+                                </ul>
+                        </fieldset>
+                    </td>
+                </tr>           
+            </table>
+        <input type="submit" value="Place Your Order">
+    </form>
+</body>
+</html>
